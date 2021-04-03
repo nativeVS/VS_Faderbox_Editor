@@ -1,0 +1,303 @@
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <title>VS_Faderbox Settings v5</title>
+  <style type="text/css">
+    .parent {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: auto;
+      font-family: Jost, Tahoma, Verdana, sans-serif;
+  }
+  .block {
+      width: 600px;
+      height: 140px;
+      position: absolute;
+      top: 60;
+      left: 0;
+      margin: 0 0 0 0;
+      font-family: Jost, Tahoma, Verdana, sans-serif;
+  }
+  .button {
+    padding:15px 15px; 
+      background:rgb(237, 139, 213); 
+      border:0 none;
+      cursor:pointer;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      font-size: 18px;
+      font-family: Jost, Tahoma, Verdana, sans-serif;
+    }
+    .button2 {
+      padding:15px 30px; 
+      background:rgb(255, 207, 84); 
+      border:0 none;
+      cursor:pointer;
+      -webkit-border-radius: 2px;
+      border-radius: 9px;
+      font-size: 18px;
+      font-family: Jost, Tahoma, Verdana, sans-serif;
+    }
+  </style>
+  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+</head>
+<body>
+  <div class="parent">
+      <div class="block">
+      <center>
+      <p style="font-size:18px; margin: 12px;">Channel select:&nbsp;
+      <select id="midiChannel"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option></select>
+    &nbsp;&nbsp;Faders CC's:&nbsp;
+      <select id="fader0"><option>0</option><option selected="">1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option><option>32</option><option>33</option><option>34</option><option>35</option><option>36</option><option>37</option><option>38</option><option>39</option><option>40</option><option>41</option><option>42</option><option>43</option><option>44</option><option>45</option><option>46</option><option>47</option><option>48</option><option>49</option><option>50</option><option>51</option><option>52</option><option>53</option><option>54</option><option>55</option><option>56</option><option>57</option><option>58</option><option>59</option><option>60</option><option>61</option><option>62</option><option>63</option><option>64</option><option>65</option><option>66</option><option>67</option><option>68</option><option>69</option><option>70</option><option>71</option><option>72</option><option>73</option><option>74</option><option>75</option><option>76</option><option>77</option><option>78</option><option>79</option><option>80</option><option>81</option><option>82</option><option>83</option><option>84</option><option>85</option><option>86</option><option>87</option><option>88</option><option>89</option><option>90</option><option>91</option><option>92</option><option>93</option><option>94</option><option>95</option><option>96</option><option>97</option><option>98</option><option>99</option><option>100</option><option>101</option><option>102</option><option>103</option><option>104</option><option>105</option><option>106</option><option>107</option><option>108</option><option>109</option><option>110</option><option>111</option><option>112</option><option>113</option><option>114</option><option>115</option><option>116</option><option>117</option><option>118</option><option>119</option><option>120</option><option>121</option><option>122</option><option>123</option><option>124</option><option>125</option><option>126</option><option>127</option></select>
+      <select id="fader1"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option selected="">11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option><option>32</option><option>33</option><option>34</option><option>35</option><option>36</option><option>37</option><option>38</option><option>39</option><option>40</option><option>41</option><option>42</option><option>43</option><option>44</option><option>45</option><option>46</option><option>47</option><option>48</option><option>49</option><option>50</option><option>51</option><option>52</option><option>53</option><option>54</option><option>55</option><option>56</option><option>57</option><option>58</option><option>59</option><option>60</option><option>61</option><option>62</option><option>63</option><option>64</option><option>65</option><option>66</option><option>67</option><option>68</option><option>69</option><option>70</option><option>71</option><option>72</option><option>73</option><option>74</option><option>75</option><option>76</option><option>77</option><option>78</option><option>79</option><option>80</option><option>81</option><option>82</option><option>83</option><option>84</option><option>85</option><option>86</option><option>87</option><option>88</option><option>89</option><option>90</option><option>91</option><option>92</option><option>93</option><option>94</option><option>95</option><option>96</option><option>97</option><option>98</option><option>99</option><option>100</option><option>101</option><option>102</option><option>103</option><option>104</option><option>105</option><option>106</option><option>107</option><option>108</option><option>109</option><option>110</option><option>111</option><option>112</option><option>113</option><option>114</option><option>115</option><option>116</option><option>117</option><option>118</option><option>119</option><option>120</option><option>121</option><option>122</option><option>123</option><option>124</option><option>125</option><option>126</option><option>127</option></select>
+      <select id="fader2"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option selected="">21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option><option>32</option><option>33</option><option>34</option><option>35</option><option>36</option><option>37</option><option>38</option><option>39</option><option>40</option><option>41</option><option>42</option><option>43</option><option>44</option><option>45</option><option>46</option><option>47</option><option>48</option><option>49</option><option>50</option><option>51</option><option>52</option><option>53</option><option>54</option><option>55</option><option>56</option><option>57</option><option>58</option><option>59</option><option>60</option><option>61</option><option>62</option><option>63</option><option>64</option><option>65</option><option>66</option><option>67</option><option>68</option><option>69</option><option>70</option><option>71</option><option>72</option><option>73</option><option>74</option><option>75</option><option>76</option><option>77</option><option>78</option><option>79</option><option>80</option><option>81</option><option>82</option><option>83</option><option>84</option><option>85</option><option>86</option><option>87</option><option>88</option><option>89</option><option>90</option><option>91</option><option>92</option><option>93</option><option>94</option><option>95</option><option>96</option><option>97</option><option>98</option><option>99</option><option>100</option><option>101</option><option>102</option><option>103</option><option>104</option><option>105</option><option>106</option><option>107</option><option>108</option><option>109</option><option>110</option><option>111</option><option>112</option><option>113</option><option>114</option><option>115</option><option>116</option><option>117</option><option>118</option><option>119</option><option>120</option><option>121</option><option>122</option><option>123</option><option>124</option><option>125</option><option>126</option><option>127</option></select>
+      <select id="fader3"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option selected="">20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option><option>32</option><option>33</option><option>34</option><option>35</option><option>36</option><option>37</option><option>38</option><option>39</option><option>40</option><option>41</option><option>42</option><option>43</option><option>44</option><option>45</option><option>46</option><option>47</option><option>48</option><option>49</option><option>50</option><option>51</option><option>52</option><option>53</option><option>54</option><option>55</option><option>56</option><option>57</option><option>58</option><option>59</option><option>60</option><option>61</option><option>62</option><option>63</option><option>64</option><option>65</option><option>66</option><option>67</option><option>68</option><option>69</option><option>70</option><option>71</option><option>72</option><option>73</option><option>74</option><option>75</option><option>76</option><option>77</option><option>78</option><option>79</option><option>80</option><option>81</option><option>82</option><option>83</option><option>84</option><option>85</option><option>86</option><option>87</option><option>88</option><option>89</option><option>90</option><option>91</option><option>92</option><option>93</option><option>94</option><option>95</option><option>96</option><option>97</option><option>98</option><option>99</option><option>100</option><option>101</option><option>102</option><option>103</option><option>104</option><option>105</option><option>106</option><option>107</option><option>108</option><option>109</option><option>110</option><option>111</option><option>112</option><option>113</option><option>114</option><option>115</option><option>116</option><option>117</option><option>118</option><option>119</option><option>120</option><option>121</option><option>122</option><option>123</option><option>124</option><option>125</option><option>126</option><option>127</option></select>
+      </p></center>
+      <script type="text/javascript">
+        var channel = "";
+      for(var i = 1 ; i < 17; i++){
+        if(i != 0) channel += "<option>"+ i +"</option>";
+        if(i == 0) channel += "<option selected>"+ i +"</option>";
+      } 
+      var options_1 = "";
+      for(var i = 0 ; i < 128; i++){
+        if(i != 1) options_1 += "<option>"+ i +"</option>";
+        if(i == 1) options_1 += "<option selected>"+ i +"</option>";
+      } 
+      var options_2 = "";
+      for(var i = 0 ; i < 128; i++){
+        if(i != 11) options_2 += "<option>"+ i +"</option>";
+        if(i == 11) options_2 += "<option selected>"+ i +"</option>";
+      }
+      var options_3 = "";
+      for(var i = 0 ; i < 128; i++){
+        if(i != 21) options_3 += "<option>"+ i +"</option>";
+        if(i == 21) options_3 += "<option selected>"+ i +"</option>";
+      }
+      var options_4 = "";
+      for(var i = 0 ; i < 128; i++){
+        if(i != 20) options_4 += "<option>"+ i +"</option>";
+        if(i == 20) options_4 += "<option selected>"+ i +"</option>";
+      }
+
+      document.getElementById("midiChannel").innerHTML = channel;
+      document.getElementById("fader0").innerHTML = options_1;
+      document.getElementById("fader1").innerHTML = options_2;
+      document.getElementById("fader2").innerHTML = options_3;
+      document.getElementById("fader3").innerHTML = options_4;
+      </script>
+      
+      <br><center><button class="button" onclick="uploadAssignments()">Upload to VS_Faderbox</button>
+      <button class="button" onclick="requestAssignments()">Request from VS_Faderbox</button>
+      </center>
+      <br><center><button class="button2" onclick="rescan()">Rescan MIDI Devices</button></center>
+      <!--<br><center><button class="button2" onclick="sendSysExIDRequest()">ID Request</button></center>
+-->
+    <script type="text/javascript">
+      
+      const sysExLength = 14;
+      const dataStart = 7;
+      const defaultSysEx = [0xf0, 0x00, 0x21, 0x57, 0x01, 0x02, 0x05, 0x01, 0x01, 0x0b, 0x15, 0x14, 0x4E, 0xf7];
+      const sysExRequestAssignment = [0xf0, 0x00, 0x21, 0x57, 0x01, 0x02, 0x05, 0x11, 0x6e, 0xf7];
+              
+      var midi;
+      var data;
+      var midinames = [];
+      var output = null;
+      var device_number;
+      var midiDeviceInputID;
+      var midiDeviceOutputID;
+      var inBuffer = [];
+      var connect = false;
+      var oldVersion = 0;
+
+      if (navigator.requestMIDIAccess) {
+          navigator.requestMIDIAccess({
+            sysex: true
+          }).then(onMIDISuccess, onMIDIFailure);
+      } else {
+          alert("No MIDI support in your browser.");
+      }
+
+      function onMIDISuccess(midiAccess) {
+          midi = midiAccess;
+          var inputs = midi.inputs.values();
+          var i = 0;
+
+          for (var input = inputs.next(); input && !input.done; input = inputs.next()) {
+              midinames[i] = input.value.name;
+              var str = midinames[i];
+              var temp = str.search( /VS_Faderbox/i ); // 0
+              if (temp != -1) {
+                alert("VS_Faderbox found and connected successfully");
+                connect = true;
+                  device_number = i;
+                  midiDeviceInputID = parseInt(input.value.id);
+              }
+              i++;
+              input.value.onmidimessage = onMIDIMessageInput;
+          }
+
+
+          outputs = midi.outputs;
+        outputs.forEach(function(port){
+            if(port.name == 'VS_Faderbox'){
+              midiDeviceOutputID = port.id;
+            }
+        });
+
+        sendSysExIDRequest();
+      
+          if(connect == false){
+            alert("VS_Faderbox cannot be found");
+          }
+          else {
+            requestAssignments();
+          }
+      }
+
+      function rescan() {
+        connect = false
+          if (navigator.requestMIDIAccess) {
+              navigator.requestMIDIAccess({
+                  sysex: true
+              }).then(onMIDISuccess, onMIDIFailure);
+          } else {
+              alert("No MIDI support in your browser.");
+          }
+      }
+
+      function onMIDIFailure(error) {
+          console.log("No access to MIDI devices or your browser doesn't support WebMIDI API. Make sure to use a Chromium based browser such as Chrome, Opera or Edge" + error);
+      }
+      
+      function onMIDIMessageInput(msg){
+        if (msg.data[0] == 0xf0
+        && msg.data[1] == defaultSysEx[1] && msg.data[2] == defaultSysEx[2] && msg.data[3] == defaultSysEx[3] // Manufacturer ID
+                  && msg.data[5] == 0x00 && msg.data[6] == defaultSysEx[6] // sub IDs
+                  && msg.data[13] == 0xf7){
+                    var checksum = msg.data[12];
+                    for (var i = 1; i < 12; i++){
+                      checksum += msg.data[i]
+                    }
+                    if (checksum % 256 == 255){
+                      for (var i = dataStart; i < (sysExLength - 2); i++){
+                        inBuffer[i - dataStart] = msg.data[i];
+                      }
+                      updatetable();
+                    }
+
+                  }
+                  if (msg.data[0] == 0xf0
+                  && msg.data[1] == 0x7e && msg.data[3] == 0x06 && msg.data[4] == 0x02
+                  && msg.data[2] == defaultSysEx[4] // Device ID
+                  && msg.data[5] == defaultSysEx[1] && msg.data[6] == defaultSysEx[2] && msg.data[7] == defaultSysEx[3] // Manufacturer ID
+                  && msg.data[16] == 0xf7){
+                    if (msg.data[11] != defaultSysEx[5] || msg.data[15] != defaultSysEx[6]){
+                      alert("Incorrect Software Version or Model Number; proceed at own risk.");
+                    }
+                  }
+      }
+
+
+      function updatetable(){
+        var channel = "";
+        for(var i = 1 ; i < 17; i++){
+          if(i != inBuffer[0]) channel += "<option>"+ i +"</option>";
+          if(i == inBuffer[0]) channel += "<option selected>"+ i +"</option>";
+        }
+        var options_1 = "";
+        for(var i = 0 ; i < 128; i++){
+          if(i != inBuffer[1]) options_1 += "<option>"+ i +"</option>";
+          if(i == inBuffer[1]) options_1 += "<option selected>"+ i +"</option>";
+        }
+        var options_2 = "";
+        for(var i = 0 ; i < 128; i++){
+          if(i != inBuffer[2]) options_2 += "<option>"+ i +"</option>";
+          if(i == inBuffer[2]) options_2 += "<option selected>"+ i +"</option>";
+        }
+        var options_3 = "";
+        for(var i = 0 ; i < 128; i++){
+          if(i != inBuffer[3]) options_3 += "<option>"+ i +"</option>";
+          if(i == inBuffer[3]) options_3 += "<option selected>"+ i +"</option>";
+        }
+        var options_4 = "";
+        for(var i = 0 ; i < 128; i++){
+          if(i != inBuffer[4]) options_4 += "<option>"+ i +"</option>";
+          if(i == inBuffer[4]) options_4 += "<option selected>"+ i +"</option>";
+        }
+
+        document.getElementById("midiChannel").innerHTML = channel;
+        document.getElementById("fader0").innerHTML = options_1;
+        document.getElementById("fader1").innerHTML = options_2;
+        document.getElementById("fader2").innerHTML = options_3;
+        document.getElementById("fader3").innerHTML = options_4;
+      }
+      
+      function channel(){
+        return parseInt(document.getElementById("midiChannel").value);
+      }
+      
+      function fader_0(){
+        return parseInt(document.getElementById("fader0").value);
+      }
+      
+      function fader_1(){
+        return parseInt(document.getElementById("fader1").value);
+      }
+      
+      function fader_2(){
+        return parseInt(document.getElementById("fader2").value);
+      }
+      
+      function fader_3(){
+        return parseInt(document.getElementById("fader3").value);
+      }
+      
+      function checksm(sysExOutput){
+        
+        var checksm = 0;
+        
+        for (var i = 1; i < (sysExLength - 2); i++ ){
+          checksm += sysExOutput[i];
+        }
+        
+        return 255 - (checksm % 256);
+                  
+      }
+
+      function uploadAssignments(){
+        var sysExOutput = defaultSysEx;
+        sysExOutput[dataStart] = channel();
+        sysExOutput[dataStart + 1] = fader_0();
+        sysExOutput[dataStart + 2] = fader_1();
+        sysExOutput[dataStart + 3] = fader_2();
+        sysExOutput[dataStart + 4] = fader_3();
+        
+        sysExOutput[sysExLength - 2] = checksm(sysExOutput);
+        
+        var output = midi.outputs.get(midiDeviceOutputID);
+        output.send(sysExOutput);
+        
+        alert("SysEx reassingment transmitted succesfully");
+
+      }
+
+      function requestAssignments(){
+        var output = midi.outputs.get(midiDeviceOutputID);
+        output.send(sysExRequestAssignment)
+      }
+
+
+      function sendSysExIDRequest(localDeviceID = 0x7f){
+        var output = midi.outputs.get(midiDeviceOutputID);
+        output.send([0xf0, 0x7e, localDeviceID, 0x06, 0x01, 0xf7])
+      }
+
+  </script>
+  </div>
+</div>
+
+</body></html>
